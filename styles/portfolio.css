@@ -75,10 +75,11 @@ main{
         text-align: center;
 }
 .section-title {
-    
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+
 
 }
 .section-description {
@@ -101,3 +102,77 @@ main{
     font-size: 20px;
     color: #474747;
 }
+/* What I Do Style */
+.what-i-do{
+        margin-top: 130px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+     color: #757575;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+/* Resume Stuyle */
+.resume-content{
+    display: flex;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-button{
+    margin: 50px;
+    text-align: center;
+}
+/* Contact Style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+    
+}
+.contact input, textarea[type=text], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%; 
+    padding: 18px 30px;         
+
+}
+.contact a{
+    text-decoration: none;
+}
+ cls
+ 
